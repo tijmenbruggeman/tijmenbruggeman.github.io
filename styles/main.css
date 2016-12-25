@@ -136,3 +136,17 @@ p {
     font-size: .73rem;
     color: #BBC7CC;
 }
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-screenshot {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.portfolio-text {
+    width: 480px;
+}
