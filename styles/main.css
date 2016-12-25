@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,900');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: #111;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    margin-top: 0;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    fill: currentColor;
+}
+
+.site-wrap {
+    max-width: 960px;
+    margin: 50px auto;
+}
+
+.site-titlemain {
+    display: block;
+    text-decoration: none;
+    color: #111;
+    margin-bottom: -12px;
+}
+
+.site-subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.text-section {
+    width: 460px;
+}
+
+.contact-links ul {
+    list-style: none;
+    margin: 1.2em 0;
+    padding: 0;
+}
+
+.contact-links li {
+    float: left;
+    font-weight: 400;
+    font-size: .73rem;
+    margin-right: 30px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #BBC7CC;
+    transition: 120ms all ease;
+}
+
+.contact-links a:hover {
+    color: #111;
+}
+
+.contact-links a:hover svg {
+    fill: #111;
+}
+
+.contact-links li svg {
+    transition: 200ms all ease;
+    fill: #BBC7CC;
+    height: 15px;
+    width: 16px;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.back-link .icon-chevron-left {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    color: #111111;
+}
+
+.back-link {
+    color: #111;
+    text-decoration: none;
+}
+
+.menu-link {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px dashed rgb(0, 0, 238);
+    margin-right: 17px;
+}
+
+.menu-link:visited {
+    border-bottom: 1px dashed rgb(0, 0, 200);
+    color: rgb(0, 0, 200);
+}
+
+.timeline-page {
+    position: relative;
+}
+
+.timeline {
+    position: absolute;
+    top: 0;
+    left: 480px;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid black;
+}
+
+.timeline-entry:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: black;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+}
+
+.timeline-entry {
+    padding-left: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.timeline-date {
+    display: block;
+    font-size: .73rem;
+    color: #BBC7CC;
+}
