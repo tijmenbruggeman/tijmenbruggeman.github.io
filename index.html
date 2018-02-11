@@ -1,60 +1,87 @@
 <!doctype html>
-<html lang="">
+<html lang="nl">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Tijmen Bruggeman, software ontwikkelaar en ondernemer uit Wierden, Overijssel. Eigenaar van WCreate; Wordpress, Shopify en App development.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+
     <title>Tijmen Bruggeman - ontwikkelaar en ondernemer</title>
-    
+    <meta name="description" content="Tijmen Bruggeman, software ontwikkelaar en ondernemer uit Wierden, Overijssel. Eigenaar van WCreate; Wordpress, Shopify en App development.">
+    <meta name="author" content="Tijmen Bruggeman">
+
     <link rel="stylesheet" href="styles/main.css" />
 
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="theme-color" content="#2F3BA2">
-
-
 </head>
+
 <body>
 
-<div class="site-wrap">
-    <header>
-        <h1 class="site-title">
-            <span class="site-titlemain">Tijmen Bruggeman</span>
-            <span class="site-subtitle">ontwikkelaar en ondernemer</span>
-        </h1>
-    </header>
-    <div class="text-section">
-        <p>Mijn naam is Tijmen. Met mijn bedrijf WCreate help ik ondernemers en bedrijven met hun webwinkel of website. Ik ontwikkel met Wordpress en Shopify, waar ik in 2017 expert partner ben geworden. 
-            Daarnaast werk ik bij Print.com aan het online drukwerkplatform van de toekomst. Voorheen gewerkt bij Topicus aan het beste financieel adviesplatform van Nederland; Findesk.
-        </p>
-        <a href="/about" class="menu-link">Over mij</a><a href="/projecten" class="menu-link">Projecten</a>
+    <div class="site-wrap">
+        <header>
+            <h1 class="site-title">
+                <span class="site-titlemain">Tijmen Bruggeman</span>
+                <span class="site-subtitle">ontwikkelaar en ondernemer</span>
+            </h1>
+        </header>
+        <div class="text-section" itemscope itemtype="http://schema.org/Person">
+            <p>Mijn naam is
+                <span itemprop="name">Tijmen Bruggeman</span>,
+                <span itemprop="jobTitle">software ontwikkelaar en ondernemer</span> uit
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Wierden</span>,
+                    <span itemprop="addressRegion">Overijssel</span>.
+                </span>
+                Met mijn bedrijf WCreate help ik ondernemers en bedrijven met hun webwinkel of website. Ik ontwikkel met Wordpress en Shopify,
+                waar ik in 2017 expert partner ben geworden. Daarnaast werk ik bij Print.com aan het online drukwerkplatform
+                van de toekomst. Voorheen gewerkt bij Topicus aan het beste financieel adviesplatform van Nederland; Findesk.
+            </p>
+            <a href="/about" class="menu-link">Over mij</a>
+            <a href="/projecten" class="menu-link">Projecten</a>
+        </div>
+        <div class="contact-links">
+            <ul>
+                <li>
+                    <a href="callto:0613762125">
+                        <svg class="icon-whatsapp">
+                            <use xlink:href="img/icons.svg#icon-whatsapp"></use>
+                        </svg> 06 137 621 25</a>
+                </li>
+                <li>
+                    <a href="mailto:tijmenbruggeman@gmail.com">
+                        <svg class="icon-mention">
+                            <use xlink:href="../img/icons.svg#icon-mention"></use>
+                        </svg> tijmenbruggeman@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/tijmenbruggeman">
+                        <svg class="icon-linkedin">
+                            <use xlink:href="img/icons.svg#icon-linkedin"></use>
+                        </svg> tijmenbruggeman</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="contact-links">
-        <ul>
-            <li><a href="callto:0613762125"><svg class="icon-whatsapp"><use xlink:href="img/icons.svg#icon-whatsapp"></use></svg> 06 137 621 25</a></li>
-            <li><a href="mailto:tijmenbruggeman@gmail.com"><svg class="icon-mention"><use xlink:href="../img/icons.svg#icon-mention"></use></svg> tijmenbruggeman@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/tijmenbruggeman"><svg class="icon-linkedin"><use xlink:href="img/icons.svg#icon-linkedin"></use></svg> tijmenbruggeman</a></li>
-        </ul>
-    </div>
-</div>
 
-<script src="scripts/velocity.min.js"></script>
-<script src="scripts/main.js"></script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
+    <script src="scripts/velocity.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-77734276-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-77734276-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
+
 </html>
